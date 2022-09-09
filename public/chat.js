@@ -1,5 +1,5 @@
 // make connection
-const socket = io.connect("https://newapp-xb31.onrender.com");
+const socket = io.connect("http://localhost:1995");
 const message = document.getElementById("message"),
   username = document.getElementById("username"),
   btn = document.getElementById("send"),
