@@ -1,7 +1,7 @@
 # Chat-APP
 Create a chat app with;
 >- User interface (username, message)
->- Use fly.io or render to deploy
+>- heroku to deploy
 >- websocket to connect backend to UI
 
 ````````
