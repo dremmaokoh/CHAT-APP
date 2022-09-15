@@ -9,7 +9,7 @@ const port = process.env.PORT || 1995;
 app.use(express.static('public'));
 
 //listening to server
-const server = app.listen(port, () => {
+const server = app.listen(1995, () => {
     console.log(`Server up and running on port http://localhost:${port}`);
   });
 
