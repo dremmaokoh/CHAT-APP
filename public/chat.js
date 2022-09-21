@@ -1,5 +1,5 @@
 // make connection
-const socket = io.connect("http://localhost:1993");
+const socket = io.connect("https://git.heroku.com/drchatapp.git");
 const message = document.getElementById("message"),
   username = document.getElementById("username"),
   btn = document.getElementById("send"),
