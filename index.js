@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
-require('dotenv').config();
 const socket= require('socket.io');
 
 const port = process.env.PORT || 1995;
@@ -9,7 +9,7 @@ const port = process.env.PORT || 1995;
 app.use(express.static('public'));
 
 //listening to server
-const server = app.listen(1995, () => {
+const server = app.listen(port, () => {
     console.log(`Server up and running on port http://localhost:${port}`);
   });
 
