@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 //listening to server
 const server = app.listen(port, () => {
-    console.log(`Server up and running on port http://localhost:${port}`);
+    console.log(`Server up and running on port... http://localhost:${port}`);
   });
 
   // socket setup

@@ -26,5 +26,5 @@ How to install
 >- Run : <kbd>npm i </kbd>
 >- Run: <kbd>npm start <kbd>
 
-###
-
+### Heroku link
+[click here](https://drchatapp.herokuapp.com/)
